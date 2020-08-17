@@ -8,22 +8,29 @@ body {
 /* Use rem over em b/c em can/is affected by parent font size while rem is not */
 h1 {
   font-size: 5.625rem;
-  color: #0073cf;
+  color: #eba487;
   margin: 0 auto 0 auto;
   font-family: 'Antic Slab', serif;
 }
 
 h2 {
+  color: #eba487;
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
 
 h3 {
   font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  color: #11999E;
 }
 
 .top-container {
-  background-color: #ffb612;
+  background-color: #11999E;
   position: relative;
   padding-top: 100px;
 }
