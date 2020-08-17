@@ -4,14 +4,17 @@ body {
   font-family: 'Oswald', serif;
 }
 
+/* 16px = 100% = 1em/rem */
+/* Use rem over em b/c em can/is affected by parent font size while rem is not */
 h1 {
-  font-size: 90px;
+  font-size: 5.625rem;
   color: #0073cf;
-  margin: 0;
+  margin: 0 auto 0 auto;
   font-family: 'Antic Slab', serif;
 }
 
 h2 {
+  font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
 }
 
