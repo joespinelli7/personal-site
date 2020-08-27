@@ -18,6 +18,7 @@ h2 {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
+  margin-top: 0;
 }
 
 h3 {
@@ -54,6 +55,7 @@ a {
 }
 
 .profile-pic {
+  margin-top: 1rem;
   width: 250px;
 }
 
@@ -61,7 +63,15 @@ a {
   width: 150px;
 }
 
+.skill-row > p, h3 {
+  text-align: left;
+}
+
 .skill-row {
   width: 60%;
   margin: 0 auto 0 auto;
+}
+
+.skill-row + .skill-row {
+  margin: 6.25rem auto 0 auto;
 }
