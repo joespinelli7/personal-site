@@ -18,7 +18,6 @@ h2 {
   font-size: 2rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  margin-top: 0;
 }
 
 h3 {
@@ -56,22 +55,28 @@ a {
 
 .profile-pic {
   margin-top: 1rem;
-  width: 250px;
+  width: 22%;
 }
 
-.skills-img {
-  width: 150px;
+.programmer-img {
+  width: 25%;
+  float: left;
+  margin-right: 1.875rem;;
 }
 
-.skill-row > p, h3 {
-  text-align: left;
+.code-img {
+  width: 25%;
+  float: right;
+  margin-left: 1.875rem;;
 }
 
 .skill-row {
-  width: 60%;
-  margin: 0 auto 0 auto;
+  width: 50%;
+  margin: 3rem auto 7.8125rem auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .skill-row + .skill-row {
-  margin: 6.25rem auto 0 auto;
+  margin-bottom: 5rem;
 }
