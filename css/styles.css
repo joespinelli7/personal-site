@@ -80,3 +80,11 @@ a {
 .skill-row + .skill-row {
   margin-bottom: 5rem;
 }
+
+hr {
+  border-style: dotted none none;
+  border-color: #11999E;
+  border-width: 1rem;
+  width: 12%;
+  margin: 5rem auto 5rem auto;
+}
