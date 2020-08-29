@@ -35,10 +35,12 @@ a {
   padding-top: 100px;
 }
 
-.middle-container {
-}
+.middle-container {}
 
 .bottom-container {
+  margin-top: 2rem;
+  background-color: #11999E;
+  padding: 1rem 0 1px 0;
 }
 
 .top-cloud {
@@ -61,13 +63,15 @@ a {
 .programmer-img {
   width: 25%;
   float: left;
-  margin-right: 1.875rem;;
+  margin-right: 1.875rem;
+  ;
 }
 
 .code-img {
   width: 25%;
   float: right;
-  margin-left: 1.875rem;;
+  margin-left: 1.875rem;
+  ;
 }
 
 .skill-row {
@@ -77,8 +81,8 @@ a {
   line-height: 2;
 }
 
-.skill-row + .skill-row {
-  margin-bottom: 5rem;
+.skill-row+.skill-row {
+  margin-bottom: 6rem;
 }
 
 hr {
@@ -87,4 +91,41 @@ hr {
   border-width: 1rem;
   width: 12%;
   margin: 5rem auto 5rem auto;
+}
+
+.footer-link {
+  color: #eba487;
+  text-decoration: none;
+}
+
+.footer-link+.footer-link {
+  margin-left: 1rem;
+}
+
+.footer-p {
+  color: #EAF6F6;
+}
+
+.contact-me-btn {
+  background: #11999E;
+  border-radius: 20px;
+  color: #EBA487;
+  font-size: 1.5rem;
+  font-weight: 100;
+  padding: 10px;
+  /* text-shadow: 1px 1px 20px #000000; */
+  border: solid #EBA487 3px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-me-btn:hover {
+  background: #EBA487;
+  color: #11999E;
+  border: solid #11999E 3px;
+  /* background: #1ABAC1;
+  border-radius: 20px;
+  text-decoration: none; */
 }
