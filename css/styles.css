@@ -64,14 +64,12 @@ a {
   width: 25%;
   float: left;
   margin-right: 1.875rem;
-  ;
 }
 
 .code-img {
   width: 25%;
   float: right;
   margin-left: 1.875rem;
-  ;
 }
 
 .skill-row {
@@ -113,7 +111,6 @@ hr {
   font-size: 1.5rem;
   font-weight: 100;
   padding: 10px;
-  /* text-shadow: 1px 1px 20px #000000; */
   border: solid #EBA487 3px;
   text-decoration: none;
   display: inline-block;
@@ -125,7 +122,4 @@ hr {
   background: #EBA487;
   color: #11999E;
   border: solid #11999E 3px;
-  /* background: #1ABAC1;
-  border-radius: 20px;
-  text-decoration: none; */
 }
