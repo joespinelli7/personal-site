@@ -1,4 +1,5 @@
 body {
+  color: #40524E;
   margin: 0;
   text-align: center;
   font-family: 'Oswald', serif;
@@ -29,13 +30,19 @@ a {
   color: #11999E;
 }
 
+p {
+  line-height: 2;
+}
+
 .top-container {
   background-color: #11999E;
   position: relative;
   padding-top: 100px;
 }
 
-.middle-container {}
+.middle-container {
+  margin-top: 50px;
+}
 
 .bottom-container {
   margin-top: 2rem;
@@ -45,13 +52,13 @@ a {
 
 .top-cloud {
   position: absolute;
-  top: 50px;
   right: 300px;
+  top: 40px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
@@ -76,7 +83,6 @@ a {
   width: 50%;
   margin: 3rem auto 7.8125rem auto;
   text-align: left;
-  line-height: 2;
 }
 
 .skill-row+.skill-row {
@@ -122,4 +128,10 @@ hr {
   background: #EBA487;
   color: #11999E;
   border: solid #11999E 3px;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+  text-align: left;
 }
