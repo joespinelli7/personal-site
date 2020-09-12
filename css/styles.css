@@ -34,6 +34,14 @@ p {
   line-height: 2;
 }
 
+hr {
+  border-style: dotted none none;
+  border-color: #11999E;
+  border-width: 1rem;
+  width: 12%;
+  margin: 5rem auto 5rem auto;
+}
+
 .top-container {
   background-color: #11999E;
   position: relative;
@@ -67,6 +75,12 @@ p {
   width: 22%;
 }
 
+.intro {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
 .programmer-img {
   width: 25%;
   float: left;
@@ -89,27 +103,6 @@ p {
   margin-bottom: 6rem;
 }
 
-hr {
-  border-style: dotted none none;
-  border-color: #11999E;
-  border-width: 1rem;
-  width: 12%;
-  margin: 5rem auto 5rem auto;
-}
-
-.footer-link {
-  color: #eba487;
-  text-decoration: none;
-}
-
-.footer-link+.footer-link {
-  margin-left: 1rem;
-}
-
-.footer-p {
-  color: #EAF6F6;
-}
-
 .contact-me-btn {
   background: #11999E;
   border-radius: 20px;
@@ -130,8 +123,15 @@ hr {
   border: solid #11999E 3px;
 }
 
-.intro {
-  width: 50%;
-  margin: auto;
-  text-align: left;
+.footer-link {
+  color: #eba487;
+  text-decoration: none;
+}
+
+.footer-link+.footer-link {
+  margin-left: 1rem;
+}
+
+.footer-p {
+  color: #EAF6F6;
 }
