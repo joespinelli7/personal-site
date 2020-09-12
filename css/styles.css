@@ -103,9 +103,18 @@ hr {
   margin-bottom: 6rem;
 }
 
+.contact-message {
+  width: 50%;
+  margin: 0 auto 20px;
+}
+
+.email {
+  color: #11999E;
+}
+
 .contact-me-btn {
   background: #11999E;
-  border-radius: 20px;
+  border-radius: 15px;
   color: #EBA487;
   font-size: 1.5rem;
   font-weight: 100;
@@ -126,6 +135,29 @@ hr {
 .footer-link {
   color: #eba487;
   text-decoration: none;
+}
+
+.footer-link:hover {
+  color: #40524E;
+}
+
+.linkedin-img {
+  width: 20px;
+  padding-left: 5px;
+}
+
+.linkedin-img:hover {
+  fill: red;
+}
+
+.github-img {
+  width: 20px;
+  padding-left: 5px;
+}
+
+.website-img {
+  width: 20px;
+  padding-left: 5px;
 }
 
 .footer-link+.footer-link {
