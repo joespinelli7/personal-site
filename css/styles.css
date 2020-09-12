@@ -141,21 +141,7 @@ hr {
   color: #40524E;
 }
 
-.linkedin-img {
-  width: 20px;
-  padding-left: 5px;
-}
-
-.linkedin-img:hover {
-  fill: red;
-}
-
-.github-img {
-  width: 20px;
-  padding-left: 5px;
-}
-
-.website-img {
+.footer-img {
   width: 20px;
   padding-left: 5px;
 }
